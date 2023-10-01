@@ -2,7 +2,7 @@ import { UnsplashImage } from "@/models/unplash-image";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { Alert } from "../../../components/bootstrap";
+import { Alert } from "../../../../components/bootstrap";
 
 export const metadata: Metadata = {
   title: "Static Image Gallery",
