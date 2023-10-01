@@ -1,0 +1,14 @@
+.image {
+  object-fit: cover;
+  margin: 0.25rem;
+  border-radius: 4px;
+  box-shadow: 10px;
+}
+
+.heading{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    color: aliceblue;
+    box-shadow: inset;
+}
