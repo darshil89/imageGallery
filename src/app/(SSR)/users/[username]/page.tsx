@@ -2,6 +2,7 @@ import { UnsplashUser } from "@/models/unplash-user";
 import styles from "./user.module.css";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
+import { Alert } from "../../../../../components/bootstrap";
 interface PageProps {
   params: {
     username: string;
@@ -35,6 +36,10 @@ const page = async ({ params: { username } }: PageProps) => {
 
   return (
     <div>
+      <Alert>
+        This profile page uses <strong>generateMetadata</strong> to set the{" "}
+        <strong>page title</strong> dynamically from the API response
+      </Alert>
       <h1>
         {user.first_name}&nbsp; {user.last_name}
       </h1>
