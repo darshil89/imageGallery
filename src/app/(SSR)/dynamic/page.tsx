@@ -37,7 +37,7 @@ const page = async () => {
         src={image.urls?.raw}
         width={width}
         height={height}
-        alt={image.description}
+        alt="image"
         className="rounded shadow-lg mw-100 h-100 "
       />
       <Link href={"/users/" + image.user.username}>

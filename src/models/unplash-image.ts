@@ -9,3 +9,8 @@ export interface UnsplashImage {
     width: number;
     height: number;
 }
+
+
+export interface UnplashSearchResponse {
+    results: UnsplashImage[];
+}
